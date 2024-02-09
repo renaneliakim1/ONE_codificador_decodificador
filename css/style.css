@@ -43,7 +43,7 @@ textarea {
 .input-texto {
     display: flex;
     flex-direction: column; 
-    width: 100%;
+    width: 70%;
     background-color: transparent;
     border-color: transparent;
     border-radius: 15px;
@@ -53,7 +53,7 @@ textarea {
 
     background-color: white;
     margin: 20px 0;
-    height: 40rem;
+    height: 25rem;
     box-shadow: 12px 18px 35px #356ea9;
 
 
@@ -80,8 +80,8 @@ textarea {
     margin-left: 15px;
 }
 button {
-    width: 325px;
-    height: 60px;
+    width: 14rem;
+    height: 3rem;
     border: 1px solid #0a3871;
     border-radius: 25px;
     cursor: pointer;
@@ -105,29 +105,33 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 35%;
     background-color: white;
     margin: 20px 0;
     border-radius: 30px;
-    height: 40rem;
+    height: 25rem;
     text-align: center;
     box-shadow: 12px 18px 35px #356ea9;
 
 }
 .resultado {
-    width: 98%;
+    width: 97.5%;
     position: relative;
     border-color: transparent;
     border-radius: 15px;
     padding: 0.5rem;
     outline: none;
 
+
 }
 .resultado:placeholder-shown {
-    background-image: url(../img/resultado-bg.png);
+    background-image: url(../img/resultado-bg-mw480.png);
     background-position: top;
     background-repeat: no-repeat;
     font-size: 30px;
+    width: 12rem;
+    height: 25rem;
+
 }
 .resultado:not(:placeholder-shown) {
     background-color: white;
@@ -200,14 +204,55 @@ footer{
     .botoes {
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         margin: 15px auto;
+    }
+
+    
+    button {
+        width: 9rem;
+        height: 2.5rem;
+        font-weight: bold;
     }
 
 
 }
 
 
+@media screen and (max-width: 1366px) {
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 15px auto;
+    }
+
+    button {
+        width: 9rem;
+        height: 2.5rem;
+        font-weight: bold;
+    }
+
+}
+
+
+@media screen and (max-width: 1365px) and (min-width: 821px)  {
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+
+    button {
+        width: 9rem;
+        height: 2.5rem;
+        font-weight: bold;
+    }
+
+}
 
 
 
@@ -270,7 +315,7 @@ footer{
 
     .container {
         margin: 20px auto;
-        width: 75%;
+        width: 70%;
         height: 30%;
         padding: 1rem;
     }
@@ -281,11 +326,11 @@ footer{
     .resultado:placeholder-shown {
         background-image: url(../img/resultado-bg-mw480.png);
     }
-    .btn-copiar {
+ /*    .btn-copiar {
         display: block;
         width: 325px;
         margin: 0 auto;
-    }
+    } */
     .invisivel {
         display: none;
     }
@@ -307,8 +352,30 @@ footer{
         justify-content: center;
         margin: 20px;
     }
+
+
+    .links{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+
+
     .credito {
         font-size: 14px;
         margin-top: 10px;
     }
 }
+
+@media screen and (max-width: 396px) {
+    .links{
+      display: grid;
+        grid-template-columns: 1fr 1fr; 
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
