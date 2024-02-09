@@ -252,6 +252,11 @@ footer{
         font-weight: bold;
     }
 
+    .resultado {
+        width: 90%;
+        height: 30%;
+    }
+
 }
 
 
