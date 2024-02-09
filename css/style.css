@@ -290,7 +290,9 @@ footer{
         margin: 2rem auto;
     }
     .redes {
+        
         font-size: 16px;
+
     }
     .redes p {
         margin-bottom: 10px;
@@ -300,8 +302,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        margin: 5px;
+        margin: 20px;
     }
     .credito {
         font-size: 14px;
