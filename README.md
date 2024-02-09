@@ -19,7 +19,7 @@ Sistema desenvolvido  no Challenge do programa ONE  (Oracle Next Education) para
 <br>
 
 <p align="center">
-  <img alt="" src=".github/readme.png.png" width="100%">
+  <img alt="" src=".github/readme.png" width="100%">
 </p>
 
 
