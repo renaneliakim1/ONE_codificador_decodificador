@@ -6,7 +6,7 @@
 
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500; 
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.5;
 }
 body {
@@ -127,6 +127,7 @@ button:hover {
     background-image: url(../img/resultado-bg.png);
     background-position: top;
     background-repeat: no-repeat;
+    font-size: 30px;
 }
 .resultado:not(:placeholder-shown) {
     background-color: white;
@@ -145,7 +146,7 @@ footer {
 }
 .redes {
     display: inline;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
 }
@@ -245,12 +246,14 @@ footer{
         font-size: 18px;
         margin: 0 auto;
     }
-    .botoes {
+    .botoes  {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 25px ;
     }
+
+    
     button {
         height: 2.5rem;
         font-weight: bold;
@@ -280,7 +283,7 @@ footer{
     }
     .btn-copiar {
         display: block;
-        width: 80%;
+        width: 325px;
         margin: 0 auto;
     }
     .invisivel {
